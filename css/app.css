@@ -34,7 +34,13 @@ body::-webkit-scrollbar {
     overflow: hidden;
     border-radius: 50%;
 }
-
+.cropper1 {
+    width: 14rem;
+    height: 8rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
 .cropper>img {
     display: inline;
     margin: 0 auto;
@@ -68,7 +74,6 @@ body::-webkit-scrollbar {
     height: 2rem;
     border: 0.1rem solid #ffffff;
     border-radius: 1.4rem;
-    opacity: 0.75;
     box-sizing: content-box;
 }
 
@@ -83,8 +88,29 @@ body::-webkit-scrollbar {
     animation-iteration-count: infinite;
 }
 #home p{
-   padding-bottom: 55px;
+   padding-bottom:45px;
 }
+.font-estetik1{
+    font-family: 'Sacramento', cursive !important;
+    color: #ffffff !important;
+    padding-top: 1rem;
+}
+
+
+.form-control {
+   
+    background-color: #000000;
+    color: #ffffff;
+
+  }
+
+  .form-select {
+   
+    background-color: #000000;
+   
+    
+  }
+
 
 @keyframes scroll {
     0% {
