@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: lightpink;
+    background-color: #ffffff;
     font-family: 'Josefin Sans', sans-serif;
     padding: 0 !important;
     overflow-y: scroll;
@@ -13,7 +13,7 @@ body {
 
 #home {
     background-size: cover;
-    background-image: url(../assets/images/bg22.jpg);
+    background-image: url(../assets/images/bg23.jpg);
     margin-bottom: -50px;
 }
 
@@ -61,10 +61,16 @@ body::-webkit-scrollbar {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: lightpink;
+    background-color: rgb(32, 32, 32);
     z-index: 1056 !important;
 }
+.mb-01{
+    color: #000000;
+}
 
+.px-22{
+    color: #000000;
+}
 .card-body {
     overflow-wrap: break-word !important;
 }
@@ -96,21 +102,29 @@ body::-webkit-scrollbar {
     padding-top: 1rem;
 }
 
-
+.font-estetik2{
+    font-family: 'Sacramento', cursive !important;
+    color: #000000 !important;
+   
+}
 .form-control {
    
     background-color: #000000;
     color: #ffffff;
 
   }
-
+.h6{
+    color: #000000;
+}
   .form-select {
    
     background-color: #000000;
    
     
   }
-
+.form-label{
+    color: #000000;
+}
 
 @keyframes scroll {
     0% {
